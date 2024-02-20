@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=JetBrains+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Philosopher&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:430px) {
+    header{
+        width: 430px !important;
+        height: 50px !important;
+    }
+    main{
+        width: 430px !important;
+        height: 1000px !important;
+    }
+    .header_container div{
+        width: 430px !important;
+    }
+    .header_container img{
+        width: 50px;
+        height: 50px;
+    }
+    .header_container div a{
+        font-size: 11px !important;        
+    }
+    .section_EclipSun{
+        height: 430px !important;
+    }
+    .section_EclipSun div h1{
+        font-size: 25px !important;
+        height: 100px !important;
+    }
+    .Eclip_photo_container1{
+        width: 370px !important;
+    }
+    .Eclip_photo_container1 div{
+        width: fit-content;
+        height: 100px;
+    }
+    .Eclip_photo_container1 div img{
+        height: 80px !important;
+        width: 150px !important;
+    }
+    .Eclip_photo_container1 div p{
+        width: 150px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    .Eclip_photo_container2{
+        width: 370px !important;
+        height: 100px !important;
+        margin-top: 80px !important;
+    }
+    .Eclip_photo_container2 div{
+        width: fit-content;
+        height: 100px;
+    }
+    .Eclip_photo_container2 div img{
+        height: 80px !important;
+        width: 150px !important;
+    }
+    .Eclip_photo_container2 div p{
+        width: 150px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    .section_about_us{
+        height: 230px !important;
+    }
+    .section_about_us img{
+        height: 100px;
+        width: 100px;
+    }
+    .section_about_us h2{
+        font-size: 25px;
+        width: 200px;
+        height: 50px;
+    }
+    .section_about_us div{
+        width: 200px;
+        height: fit-content;
+    }
+    .section_about_us div p{
+        font-size: 13px;
+        width: 200px;
+    }
+    .Reviews{
+        height: 320px !important;
+    }
+    .Reviews div h3{
+        font-size: 25px !important;
+        height: 50px !important;
+    }
+    .Reviews img{
+        height: 60px;
+        width: 60px;
+    }
+    .Reviews div p{
+        font-size: 13px;
+        width: 130px;
+    }
+    .text_reviews{
+        height: 80px !important;
+    }
+    .footer{
+        height: 50px !important;
+    }
+    .footer div{
+        height: 50px !important;
+    }
+    .footer_left img{
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .footer_left a{
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .footer_middle img{
+        height: 45px !important;
+        width: 45px !important;
+    }
+    .footer_middle a{
+        height: 45px !important;
+        width: 45px !important;
+    }
+    .footer_middle h2{
+        font-size: 20px !important;
+        margin-left: 0;
+    }
+    .footer_right p{
+        font-size: 10px;
+    }
+}
+main{
+    width: 100%;
+    height: 1940px;
+    background-color: #181825;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #FAB387;
+}
+.header_container{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_links{
+    display: flex;
+    justify-content: space-between;
+}
+.header_container div{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_container div a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'JetBrains Mono', monospace;
+    border-bottom: #FAB387 solid 2px;
+    transition-duration: 0.3s;
+}
+.header_container div a:hover{
+    border-bottom: #181825 solid 2px;
+}
+.section_EclipSun{
+    width: 100%;
+    height: 810px;
+}
+.section_EclipSun div h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 64px;
+}
+span{
+    color: #FAB387;
+}
+.Eclip_photo_container1{
+    width: 950px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Eclip_photo_container2{
+    width: 950px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.Eclip_photo_container1 img{
+    z-index: 1;
+    position: relative;
+    width: 430px;
+    height: 230px;
+}
+.Eclip_photo_container1 p{
+    z-index: 0;
+    position: relative;
+    top: -70px;
+    background-color: #FAB387;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    border-radius: 30px;
+    padding-top: 70px;
+    font-weight: 700;
+}
+.Eclip_photo_container2{
+    margin-top: 230px;
+}
+.Eclip_photo_container2 img{
+    z-index: 1;
+    position: relative;
+    width: 430px;
+    height: 230px;
+}
+.Eclip_photo_container2 p{
+    z-index: 0;
+    position: relative;
+    top: -70px;
+    background-color: #FAB387;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    border-radius: 30px;
+    padding-top: 70px;
+    font-weight: 700;
+}
+.section_about_us{
+    width: 100%;
+    height: 419px;
+    border-top: solid #FAB387;
+    border-bottom: solid #FAB387;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    width: 100%;
+    height: 120px;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    justify-content: center;
+}
+.section_about_us p{
+    width: 500px;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 24px;
+    text-align: center;
+}
+.section_about_us span{
+    margin-left: 20px;
+}
+.Reviews{
+    width: 100%;
+    height: 711px;
+    margin-top: 20px;
+}
+.Reviews div h3{
+    width: 100%;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 64px;
+}
+.Reviews_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
+.Reviews_container img{
+    margin-bottom: 30px;
+}
+.text_reviews{
+    text-align: center;
+    color: white;
+    width: 180px;
+    height: 120px;
+    font-family: 'JetBrains Mono', monospace;
+}
+.Reviews_estimation{
+    color: #FAB387;
+    font-family: 'JetBrains Mono', monospace;
+}
+.Name{
+    line-height: 30px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #FAB387;
+}
+footer{
+    width: 100%;
+    background-color: #FAB387;
+}
+.footer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footer_left{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+}
+.footer_left_link{
+    margin-left: 15px;
+    width: 70px;
+    height: fit-content;
+}
+.footer_left_img{
+    width: 60px;
+    height: fit-content;
+}
+.footer_middle{
+    display: flex;
+    align-items: center;
+    height: 123px;
+}
+.footer_middle_img_l{
+    width: 115px;
+    height: fit-content;
+}
+.footer_middle_img{
+    width: 120px;
+    height: fit-content;
+}
+.footer_middle_h{
+    color: black;
+    font-size: 45px;
+    height: fit-content;
+    margin-left: 40px;
+}
+.footer_right{
+    display: flex;
+    align-items: center;
+}
+.footer_right_p{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "JetBrains Mono", monospace;
+}
+img{
+    user-select: none;
+}
